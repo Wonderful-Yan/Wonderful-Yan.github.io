@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <title>宠膳房</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <!-- 导航栏 -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-800">宠膳房</a>
+            <div class="flex space-x-4">
+                <a href="#" class="text-gray-600 hover:text-gray-800">首页</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">关于我们</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">联系我们</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主内容 -->
+    <main class="container mx-auto px-4 py-8">
+        <section class="bg-white p-8 rounded-lg shadow-md mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-4">欢迎来到宠膳房</h1>
+            <p class="text-gray-600 leading-relaxed mb-6">欢迎来到宠膳房的官方网站！本网站致力于为宠物爱好者提供优质的宠物用品。我们以专业和热情的态度，精心挑选各类宠物产品，尤其是王牌产品磨牙棒，采用天然健康原料制作，安全无毒。在这里，你不仅能找到满足宠物需求的好物，还能感受到我们对宠物健康的关注与呵护。网站运用先进的优化技术，确保快速加载，无论你使用何种设备浏览，都能享受流畅且一致的体验。</p>
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md">了解更多</a>
+        </section>
+
+        <!-- 王牌产品介绍模块 -->
+        <section class="bg-white p-8 rounded-lg shadow-md mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="col-span-1">
+                <!-- 使用网络图片替换 SVG -->
+                <img src="https://m.media-amazon.com/images/I/714wKpX5DAL._AC_SX679_.jpg" alt="宠物磨牙棒" class="w-full h-auto rounded-md">
+            </div>
+            <div class="col-span-1">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">王牌产品 - 磨牙棒</h2>
+                <p class="text-gray-600 leading-relaxed mb-4">我们的磨牙棒是专为宠物精心设计的王牌产品。采用天然健康的原料制作，安全无毒，让您的宠物可以放心啃咬。</p>
+                <p class="text-gray-600 leading-relaxed mb-4">磨牙棒独特的形状和纹理，能够有效清洁宠物的牙齿，减少牙菌斑和口臭，保护宠物的口腔健康。</p>
+                <p class="text-gray-600 leading-relaxed mb-6">此外，它还能满足宠物磨牙的天性，帮助它们缓解换牙期的不适，同时也是宠物玩耍时的好伙伴。</p>
+                <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md">立即购买</a>
+            </div>
+        </section>
+
+        <!-- 快速加载和响应式设计模块，增加了mt-12类，向下移动 -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <i class="fa-solid fa-rocket text-3xl text-blue-500 mb-4"></i>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">快速加载</h2>
+                <p class="text-gray-600 leading-relaxed">我们的网站采用了优化技术，确保快速加载，为用户提供流畅的体验。</p>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow-md">
+                <i class="fa-solid fa-mobile-screen-button text-3xl text-blue-500 mb-4"></i>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">响应式设计</h2>
+                <p class="text-gray-600 leading-relaxed">无论使用何种设备，我们的网站都能完美适配，提供一致的体验。</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-white shadow-md mt-8">
+        <div class="container mx-auto px-4 py-6 text-center text-gray-600">
+            &copy; 2025 宠膳房版权所有
+        </div>
+    </footer>
+</body>
+
+</html>
+    
